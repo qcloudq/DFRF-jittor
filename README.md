@@ -37,6 +37,8 @@ sh process_base_train_data.sh 2
 
 ## Training
 
+To train on a new dataset for fine-tuning:
+
 ```
 sh run.sh ${id}
 ```
