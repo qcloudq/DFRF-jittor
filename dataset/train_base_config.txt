@@ -1,0 +1,10 @@
+expname = base_model_jt
+expname_finetune = base_model_jt
+datadir = dataset/base_train
+basedir = dataset/
+near = 0.49714659452438353
+far = 1.2749938011169433
+testskip = 1 
+L2loss_weight = 5e-8
+train_length = 15
+bc_type=torso_imgs

@@ -1,0 +1,1 @@
+python NeRFs/run_nerf_deform.py --config dataset/train_base_config.txt --N_iters 300000 --N_rand 300

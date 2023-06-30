@@ -1,0 +1,35 @@
+# install jittor
+sudo apt install libomp-dev
+python -m pip install jittor
+python -m jittor.test.test_example
+python -m jittor.test.test_cudnn_op
+
+# install others
+pip install "torch==1.11+cu113" "torchvision==0.12+cu113" "torchaudio==0.11" --extra-index-url https://download.pytorch.org/whl/cu113
+pip install numpy==1.22.4
+pip install numba==0.56
+pip install imageio
+pip install opencv-python
+pip install tqdm
+pip install natsort
+pip install configargparse
+pip install scipy
+pip install face_alignment
+# Yes, reinstall numpy with right version
+pip install numpy==1.22.4
+pip install scikit-learn
+pip install pandas
+pip install resampy
+pip install python_speech_features
+pip install tensorflow
+
+# install pytorch3d from github
+git clone https://github.com/facebookresearch/pytorch3d.git
+cd pytorch3d && pip install -e .
+
+# install pytorch3d by conda
+conda install -c fvcore -c iopath -c conda-forge fvcore iopath
+conda install pytorch3d -c pytorch3d
+
+# install cupy
+pip install cupy-cuda120
