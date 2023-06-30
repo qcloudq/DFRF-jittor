@@ -37,13 +37,11 @@ sh process_base_train_data.sh 2
 
 ## Training
 
-To train on a new dataset for fine-tuning:
+To train on a new dataset for fine-tuning, run the following command. Some pre-trained models are [here](https://github.com/qcloudq/DFRF-jittor/releases/tag/Pretrained_Models).
 
 ```
 sh run.sh ${id}
 ```
-
-Some pre-trained models are [here](https://github.com/qcloudq/DFRF-jittor/releases/tag/Pretrained_Models).
 
 Specially, to train the base model:
 
