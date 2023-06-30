@@ -1,5 +1,5 @@
 # DFRF-jittor
-A jittor implementation for ECCV2022 paper [DFRF](https://arxiv.org/abs/2207.11770) "Learning Dynamic Facial Radiance Fields for Few-Shot Talking Head Synthesis". The code is based on authors' Pytorch implementation [here](https://github.com/sstzal/DFRF).
+A jittor implementation for ECCV2022 paper [DFRF](https://arxiv.org/abs/2207.11770) "Learning Dynamic Facial Radiance Fields for Few-Shot Talking Head Synthesis". The code is based on the authors' Pytorch implementation [here](https://github.com/sstzal/DFRF). To see our results, we provide some video demos [here](https://github.com/qcloudq/DFRF-jittor/releases/tag/Video_Demo).
 
 ## Requirements
 
@@ -41,7 +41,7 @@ sh process_base_train_data.sh 2
 sh run.sh ${id}
 ```
 
-Some pre-trained models are [here](https://github.com/sstzal/DFRF/releases/tag/Pretrained_Models).
+Some pre-trained models are [here](https://github.com/qcloudq/DFRF-jittor/releases/tag/Pretrained_Models).
 
 Specially, to train the base model:
 
@@ -59,4 +59,4 @@ sh rendering.sh
 
 ## Acknowledgement
 
-This code is built upon the publicly available code [DFRF](https://arxiv.org/abs/2207.11770). Thanks the authors of DFRF for making their excellent work and codes publicly available.
+This code is built upon the publicly available code [DFRF](https://github.com/sstzal/DFRF). Thanks the authors of DFRF for making their excellent work and codes publicly available.
